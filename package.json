@@ -1,0 +1,26 @@
+{
+    "name": "ghost-md-qr",
+    "version": "1.0.0",
+    "description": "A multi functional whatsapp bot Web Qr Scanner.",
+    "main": "ghost.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node kish.js"
+    },
+    "keywords": ["baileysQr","MdLogin", "Ghost-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
+    "author": "Blvckcastro",
+    "license": "MIT",
+    "dependencies": {
+      "@hapi/boom": "^10.0.1",
+      "@whiskeysockets/baileys": "^6.5.0",
+      "fs-extra": "latest",
+      "pino": "^8.1.0",
+      "express": "^4.18.2",
+      "qrcode": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.dev/Blvckcastro/ghost-md-qr.git"
+    }
+  }
+  
