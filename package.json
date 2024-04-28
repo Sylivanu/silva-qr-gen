@@ -5,7 +5,7 @@
     "main": "ghost.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node kish.js"
+      "start": "node ghost.js"
     },
     "keywords": ["baileysQr","MdLogin", "Ghost-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
     "author": "Blvckcastro",
