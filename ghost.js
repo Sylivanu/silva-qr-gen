@@ -10,21 +10,28 @@ const PORT = process.env.PORT || 5000;
 const MESSAGE =
   process.env.MESSAGE ||
   `
-____________________________
 *✅sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ✅*
-____________________________
+*Made With 💜*
+*By ɢɪғᴛᴇᴅ ᴛᴇᴄʜ💜*
+______________________________
 ╔════◇
-║『 *YOU'VE CHOSEN GHOST-MD* 』
+║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
-╚════════════════╝
+╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐎𝐰𝐧𝐞𝐫: https://wa.me/254758682666
-║❒ 𝐑𝐞𝐩𝐨: https://github.com/Blvckcastro/Ghost-Md
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VaYVQPxE50UYrUaToj1V
+║❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _youtube.com/@giftedtechnexus_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/message/NHCZC5DSOEUXB1_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/Gifted-Md_
+║❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/ExdDIwx7j36Ci7VP0TbCYw_
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o_
+║❒ 𝐖𝐚𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲: _https://chat.whatsapp.com/JzEI5zUtHSh01rxYL1bkmy_
 ║ 💜💜💜
-╚════════════════╝ 
+╚══════════════╝ 
+ *©²⁰²⁴ ᴳᴵᶠᵀᴱᴰ ᵂᴴᴬᵀˢᴬᴾᴾ ᴮᴼᵀˢ*
+______________________________
+
 Don't Forget To Give Star⭐ To My Repo
 `;
 
@@ -52,7 +59,7 @@ app.use("/", async (req, res) => {
       let Smd = GhostWASocket({
         printQRInTerminal: false,
         logger: pino({ level: "silent" }),
-        browser: ["GhostMd", "GhostQrScan", ""],
+        browser: ["Gifted", "GiftedQrScan", ""],
         auth: state,
       });
 
@@ -77,7 +84,7 @@ SESSION-ID ==> ${Scan_Id}
 `);
 
           let msgsss = await Smd.sendMessage(user, {
-            text: `GHOST-MD=>;;;${Scan_Id}`,
+            text: `Gifted;;;${Scan_Id}`,
           });
           await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
           await delay(1000);
