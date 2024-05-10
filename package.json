@@ -1,14 +1,14 @@
 {
-    "name": "ghost-md-qr",
+    "name": "gifted-md-qr",
     "version": "1.0.0",
     "description": "A multi functional whatsapp bot Web Qr Scanner.",
-    "main": "ghost.js",
+    "main": "./gifted.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node ghost.js"
+      "start": "node gifted.js"
     },
-    "keywords": ["baileysQr","MdLogin", "Ghost-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
-    "author": "Blvckcastro",
+    "keywords": ["baileysQr","MdLogin", "Gifted-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
+    "author": "Gifted Tech",
     "license": "MIT",
     "dependencies": {
       "@hapi/boom": "^10.0.1",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.dev/Blvckcastro/ghost-md-qr.git"
+        "url": "git+https://github.dev/mouricedevs/gifted-md-qr.git"
     }
   }
   
