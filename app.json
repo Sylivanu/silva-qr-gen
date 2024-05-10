@@ -1,9 +1,9 @@
 {
-    "name": "ghost-md-qr",
-    "description": "I am Ghost-Md. A Simple Multidevice Whatsapp Bot built in NodeJs to make experience better.",
-    "logo": "https://github.com/Blvckcastro.png",
-    "repository": "https://github.com/Blvckcastro/Ghost-Md-Qr",
-    "keywords": ["whatsappbot", "GhostMd", "ghost Md bot", "Ghost-Md", "GhostMdWhatsappBot", "GhostWaBot","GhostMD","Ghost Md Whatsapp Bot","multi device"],
+    "name": "gifted-md-qr",
+    "description": "I am Gifted-Md. A Simple Multidevice Whatsapp Bot built in NodeJs to make experience better.",
+    "logo": "https://github.com/mouricedevs.png",
+    "repository": "https://github.com/mouricedevs/Gifted-Md-Qr",
+    "keywords": ["whatsappbot", "GiftedMd", "gifted Md bot", "Gifted-Md", "GiftedMdWhatsappBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
