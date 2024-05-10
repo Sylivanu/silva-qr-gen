@@ -1,13 +1,13 @@
-<h1 align="center"> GHOST-MD QR SCANNER </h1>
+<h1 align="center"> GIFTED-MD QR SCANNER </h1>
 
   <html>
    <body>
   <p align="center">  
-  <a aria-label="FORK" href="https://github.com/Blvckcastro/ghost-md-qr/fork" target="_blank">
-    <img alt="License: GPL-3" src="https://img.shields.io/github/stars/Blvckcastro/ghost-md-qr?style=social" target="_blank" />
+  <a aria-label="FORK" href="https://github.com/mouricedevs/gifted-md-qr/fork" target="_blank">
+    <img alt="License: GPL-3" src="https://img.shields.io/github/stars/mouricedevs/gifted-md-qr?style=social" target="_blank" />
   </a>
   </p>
-    <p align="center"><img src="https://profile-counter.glitch.me/{Blvckcastro}/count.svg" alt="Blvckcastro :: Visitor's Count" /></p>
+    <p align="center"><img src="https://profile-counter.glitch.me/{mouricedevs}/count.svg" alt="mouricedevs:: Visitor's Count" /></p>
      
      
   </body>
@@ -16,9 +16,9 @@
 
 ## Deployment Methods
 ---
-1.  ***Click [`FORK`](https://github.com/Blvckcastro/ghost-md-qr/fork) and `Star ⭐ Repository` if you get help from repo.***
-2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Blvckcastro/ghost-md-qr).***
-3.  ***Deploy on [`REPLIT`](https://replit.com/github/Blvckcastro/ghost-md-qr).***
+1.  ***Click [`FORK`](https://github.com/mouricedevs/gifted-md-qr/fork) and `Star ⭐ Repository` if you get help from repo.***
+2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/mouricedevs/gifted-md-qr).***
+3.  ***Deploy on [`REPLIT`](https://replit.com/github/mouricedevs/gifted-md-qr).***
 4. ***Deploy on [`RENDER`](https://dashboard.render.com/login).***
 ```
 RENDER PROCESS:
@@ -44,10 +44,10 @@ RENDER PROCESS:
 
 - WASocket Options
 ```js
-    let Smd =GhostWASocket({ 
+    let Smd =GiftedWASocket({ 
         printQRInTerminal: false,   // make it false if you're using web
         logger: pino({ level: "silent" }),     // make it silent to prevent baileys buffering
-        browser: ["GhostMd", "GhostQrScan", ""],  // awailable browsers : Gifted, GhostMd, ubuntu, macOS, baileys.
+        browser: ["Gifted", "GiftedQrScan", ""],  // awailable browsers : Gifted, GiftedMd, ubuntu, macOS, baileys.
         auth: state 
     });
 ```
@@ -56,7 +56,7 @@ RENDER PROCESS:
 
 - Getting Session in BASE64
 ```js
-    let CREDS = fs.readFileSync(__dirname + '/ghost_baileys/creds.json')
+    let CREDS = fs.readFileSync(__dirname + '/gifted_baileys/creds.json')
     var Scan_Id = Buffer.from(CREDS).toString('base64')    // converting into Base64 ---- IMPLEMENT ACCOEDING TO YOUR NEED
     // res.json({status:true,Scan_Id })
 ```
@@ -79,8 +79,8 @@ RENDER PROCESS:
 
 
 
-## MADE WITH ❤️ BY BLACK CASTRO:
- <a href="https://github.com/Blvckcastro"><img src="https://github.com/Blvckcastro.png" width="200" height="200" alt="Blvckcastro"/></a>
+## MADE WITH ❤️ BY GIFTED TECH:
+ <a href="https://github.com/mouricedevs"><img src="https://github.com/mouricedevs.png" width="200" height="200" alt="Gifted"/></a>
 
  ### Crrdits To:
- [Gifted Tech](https://github.com/mouricedevs)
+ [Myself](https://github.com/mouricedevs)
