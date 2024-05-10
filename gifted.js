@@ -35,13 +35,13 @@ ______________________________
 Don't Forget To Give Star⭐ To My Repo
 `;
 
-if (fs.existsSync("./ghost_baileys")) {
-  fs.emptyDirSync(__dirname + "/ghost_baileys");
+if (fs.existsSync("./gifted_baileys")) {
+  fs.emptyDirSync(__dirname + "/gifted_baileys");
 }
 
 app.use("/", async (req, res) => {
   const {
-    default: GhostWASocket,
+    default: GiftedWASocket,
     useMultiFileAuthState,
     Browsers,
     delay,
@@ -51,12 +51,12 @@ app.use("/", async (req, res) => {
   const store = makeInMemoryStore({
     logger: pino().child({ level: "silent", stream: "store" }),
   });
-  async function GHOST() {
+  async function GIFTED() {
     const { state, saveCreds } = await useMultiFileAuthState(
-      __dirname + "/ghost_baileys",
+      __dirname + "/gifted_baileys",
     );
     try {
-      let Smd = GhostWASocket({
+      let Smd = GiftedWASocket({
         printQRInTerminal: false,
         logger: pino({ level: "silent" }),
         browser: ["Gifted", "GiftedQrScan", ""],
@@ -73,7 +73,7 @@ app.use("/", async (req, res) => {
           await delay(3000);
           let user = Smd.user.id;
           let CREDS = fs.readFileSync(
-            __dirname + "/ghost_baileys/creds.json",
+            __dirname + "/gifted_baileys/creds.json",
           );
           var Scan_Id = Buffer.from(CREDS).toString("base64");
           // res.json({status:true,Scan_Id })
@@ -89,7 +89,7 @@ SESSION-ID ==> ${Scan_Id}
           await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
           await delay(1000);
           try {
-            await fs.emptyDirSync(__dirname + "/ghost_baileys");
+            await fs.emptyDirSync(__dirname + "/gifted_baileys");
           } catch (e) {}
         }
 
@@ -100,16 +100,16 @@ SESSION-ID ==> ${Scan_Id}
           // console.log("Reason : ",DisconnectReason[reason])
           if (reason === DisconnectReason.connectionClosed) {
             console.log("Connection closed!");
-            // GHOST().catch(err => console.log(err));
+            // GIFTED().catch(err => console.log(err));
           } else if (reason === DisconnectReason.connectionLost) {
             console.log("Connection Lost from Server!");
-            //  GHOST().catch(err => console.log(err));
+            //  GIFTED().catch(err => console.log(err));
           } else if (reason === DisconnectReason.restartRequired) {
             console.log("Restart Required, Restarting...");
-            GHOST().catch((err) => console.log(err));
+            GIFTED().catch((err) => console.log(err));
           } else if (reason === DisconnectReason.timedOut) {
             console.log("Connection TimedOut!");
-            // GHOST().catch(err => console.log(err));
+            // GIFTED().catch(err => console.log(err));
           } else {
             console.log("Connection closed with bot. Please run again.");
             console.log(reason);
@@ -119,18 +119,18 @@ SESSION-ID ==> ${Scan_Id}
       });
     } catch (err) {
       console.log(err);
-      await fs.emptyDirSync(__dirname + "/ghost_baileys");
+      await fs.emptyDirSync(__dirname + "/gifted_baileys");
     }
   }
 
-  GHOST().catch(async (err) => {
+  GIFTED().catch(async (err) => {
     console.log(err);
-    await fs.emptyDirSync(__dirname + "/ghost_baileys");
+    await fs.emptyDirSync(__dirname + "/gifted_baileys");
 
-    //// MADE BY BLACK CASTRO INC - 2024
+    //// MADE BY GIFTED TECH INC - 2024
   });
 });
 
 app.listen(PORT, () =>
-  console.log(`Ghost-Qr Server Running on Port http://localhost:${PORT}`),
+  console.log(`Gifted-Qr Server Running on Port http://localhost:${PORT}`),
 );
