@@ -12,24 +12,24 @@ const MESSAGE =
   `
 *✅sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ✅*
 *Made With 💜*
-*By ɢɪғᴛᴇᴅ ᴛᴇᴄʜ💜*
+*By 𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉💜*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝐘𝐎𝐔 ARE CONNECTED TO 𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
 ╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/message/NHCZC5DSOEUXB1_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/Gifted-Md_
+║❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _tiktok.com/@silva.edits6_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/message/254700143167_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/SilvaTechB/SilvaGifted_
 ║❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/ExdDIwx7j36Ci7VP0TbCYw_
 ║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
 ║❒ 𝐖𝐚𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲: _https://chat.whatsapp.com/JzEI5zUtHSh01rxYL1bkmy_
 ║ 💜💜💜
 ╚══════════════╝ 
- *©²⁰²⁴ ᴳᴵᶠᵀᴱᴰ ᵂᴴᴬᵀˢᴬᴾᴾ ᴮᴼᵀˢ*
+ *©²⁰²⁴ 𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉*
 ______________________________
 
 Don't Forget To Give Star⭐ To My Repo
